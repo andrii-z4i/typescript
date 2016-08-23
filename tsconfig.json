@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "target": "ES6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "build/tsc.js",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "typings",
+        "build",
+        "bower_components"
+    ]
+}
